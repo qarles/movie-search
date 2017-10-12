@@ -22255,7 +22255,6 @@ var Search = function (_Component) {
 	}, {
 		key: 'render',
 		value: function render() {
-			console.log('Render');
 			return _react2.default.createElement(
 				'div',
 				{ className: 'search' },
@@ -22364,7 +22363,7 @@ var Result = function (_PureComponent) {
 				_react2.default.createElement(
 					"div",
 					{ className: "result" },
-					_react2.default.createElement("img", { src: poster_path ? "http://image.tmdb.org/t/p/w185" + poster_path : 'no-image.png' }),
+					_react2.default.createElement("img", { src: poster_path ? "//image.tmdb.org/t/p/w185" + poster_path : 'no-image.png' }),
 					_react2.default.createElement(
 						"div",
 						{ className: "description" },
