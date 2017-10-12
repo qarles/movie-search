@@ -6,7 +6,7 @@ class Result extends PureComponent {
 		return (
 			<div className="result-wrap">
 				<div className="result">
-					<img src={poster_path ? `http://image.tmdb.org/t/p/w185${poster_path}` : 'no-image.png'} />
+					<img src={poster_path ? `//image.tmdb.org/t/p/w185${poster_path}` : 'no-image.png'} />
 					<div className="description">
 						<h3>{title}</h3>
 						<p>

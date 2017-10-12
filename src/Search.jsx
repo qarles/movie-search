@@ -23,7 +23,6 @@ class Search extends Component {
 	}
 
 	render() {
-		console.log('Render');
 		return (
 			<div className="search">
 				<input placeholder="Enter movie name" value={this.state.value} onChange={this.onChange} />
